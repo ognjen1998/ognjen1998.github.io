@@ -39,5 +39,6 @@ changeDefaults();
 
 // Event that reacts whenever a user has scrolled
 document.onscroll = () => {
+	if(window.innerWidth > 1000)
 	scrollLocationAnimateHandler();
 };
