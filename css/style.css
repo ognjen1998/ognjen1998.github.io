@@ -393,13 +393,6 @@ body ::placeholder {
   text-shadow: #bd5796 0 0.3rem 2rem;
   transform: scale(1.2);
 }
-
-@media (max-width: 37.5em) {
-  .header__menu__item:hover {
-    background-color: #23374d;
-  }
-}
-
 .header__menu__item:hover::after {
   width: 100%;
 }
